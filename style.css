@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}
+
+body table{
+    margin-top: 130px;
+    height: 410px;
+    width: 800px;
+    background-color:#FFFFFF;
+    box-shadow: 2px 6px #DEDEDE;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+td{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+th, td{
+    padding: 26px;
+}
