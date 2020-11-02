@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Đăng ký thành viên</h1>
+    <form action="">
+        <table class="table">
+            <tr>
+                <th>Nội dung</th>
+                <th>Giá trị</th>
+            </tr>
+            <tr>
+                <td>Họ tên:</td>
+                <td><input type="text" name="full-name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>Avatar:</td>
+                <td><input type="file" name="avatar"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Tuổi:</td>
+                <td><input type="number" name="age" class="age" min="1" max="100" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" class="male" name="gender" value="male">
+                    <label for="male">Nam</label><br>
+                    <input type="radio" class="female" name="gender" value="female">
+                    <label for="female">Nữ</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích:</td>
+                <td>
+                    <input type="checkbox" class="football" name="favorite" value="football">
+                    <label for="football">Đá bóng</label><br>
+                    <input type="checkbox" class="badminton" name="favorite" value="badminton">
+                    <label for="badminton">Cầu lông</label><br>
+                    <input type="checkbox" class="sailing" name="favorite" value="sailing">
+                    <label for="sailing">Đua thuyền</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú:</td>
+                <td><textarea name="note" cols="20" rows="3">Buổi học đầu tiên về html</textarea></td>
+            </tr>
+        </table>
+    </form>
+    <button>Đăng ký</button>
+</body>
+</html>
